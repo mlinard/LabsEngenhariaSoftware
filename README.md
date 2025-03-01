@@ -2,7 +2,8 @@
 Projeto da disciplina Laborátorio de Engenharia de Software.
 
 ## Organização do repositório
-´´´/LabEngenhariaSoftware
+´´´
+/LabEngenhariaSoftware
   ├── /Frontend
   │   ├── /src              # Código fonte do frontend
   │   │   ├── /components   # Componentes reutilizáveis
@@ -36,5 +37,6 @@ Projeto da disciplina Laborátorio de Engenharia de Software.
   │   └── Requisitos.md     # Requisitos do projeto
   ├── .gitignore            # Arquivos e pastas a serem ignorados pelo Git
   ├── README.md             # Documentação principal do projeto
-  └── package.json          # Dependências globais (se necessário)´´´
+  └── package.json          # Dependências globais (se necessário)
+  ´´´
 
