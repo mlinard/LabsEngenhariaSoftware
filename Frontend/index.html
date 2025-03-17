@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Review</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Barra no topo com menu -->
+    <div class="top-bar">
+      <div class="menu-icon" id="menuIcon">&#9776;</div>
+      <!-- Ícone do menu -->
+      <span>Game Reviews</span>
+    </div>
+
+    <!-- Menu lateral -->
+    <div id="sideMenu" class="side-menu">
+      <a href="#" class="close-btn" id="closeBtn">&times;</a>
+      <!-- Botão para fechar -->
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Jogos</a>
+      <a href="#">Contato</a>
+    </div>
+
+    <div class="game-container">
+      <div class="game-card">
+        <img
+          src="https://images.sftcdn.net/images/t_app-icon-m/p/c5a67572-1669-4695-9a44-45721161287a/3313621083/party-animals-download-Party-Animals-for-Windows.jpg"
+          alt="Party Animals"
+        />
+        <h2>Party Animals</h2>
+        <p>Nota: 9.0</p>
+        <button
+          onclick="showMessage('Party Animals é um jogo divertido para jogar com amigos!')"
+        >
+          Ver detalhes
+        </button>
+      </div>
+      <div class="game-card">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+          alt="The Legend of Zelda: Breath of the Wild"
+        />
+        <h2>The Legend of Zelda: Breath of the Wild</h2>
+        <p>Nota: 9.5</p>
+        <button
+          onclick="showMessage('Breath of the Wild é um jogo incrível de exploração e aventura!')"
+        >
+          Ver detalhes
+        </button>
+      </div>
+      <div class="game-card">
+        <img
+          src="https://cdn1.epicgames.com/offer/0a9e3c5ab6684506bd624a849ca0cf39/EGS_DeathStrandingDirectorsCut_KOJIMAPRODUCTIONS_S4_1200x1600-5f99e16507795f9b497716b470cfd876"
+          alt="Death Stranding Director's Cut"
+        />
+        <h2>Death Stranding Director's Cut</h2>
+        <p>Nota: 8.5</p>
+        <button
+          onclick="showMessage('Death Stranding é uma experiência única de conexão e sobrevivência!')"
+        >
+          Ver detalhes
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
