@@ -32,15 +32,20 @@ class SteamGameModel {
 
     try {
       // Fetch games from the database API endpoint
-      console.log("📡 Fetching from http://localhost:3000/api/steam-games...");
+      console.log(
+        "📡 Fetching from http://http://56.124.70.84:3000/api/steam-games..."
+      );
 
-      const response = await fetch("http://localhost:3000/api/steam-games", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        mode: "cors", // Explicitly set CORS mode
-      });
+      const response = await fetch(
+        "http://http://56.124.70.84:3000/api/steam-games",
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          mode: "cors", // Explicitly set CORS mode
+        }
+      );
 
       console.log("📡 Response status:", response.status);
       console.log("📡 Response ok:", response.ok);
