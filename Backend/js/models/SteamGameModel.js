@@ -34,7 +34,7 @@ class SteamGameModel {
       // Fetch games from the database API endpoint
       console.log("📡 Fetching from http://localhost:3000/api/steam-games...");
 
-      const response = await fetch("http://56.124.70.84:3000/api/steam-games", {
+      const response = await fetch("http://localhost:3000/api/steam-games", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
